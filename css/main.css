@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+  background: #6c9eff;
+}
+
+.to {
+  margin: 20px 0 0 20px;
+}
+.to img {
+  width: 100px;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.happy {
+  margin: 200px 0 40px;
+}
+.txt img {
+  height: 10vw;
+  animation: move 1s linear infinite alternate-reverse;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+span {
+  width: 16px;
+}
+.y {
+  margin-left: -5px;
+}
+
+.c {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake {
+  width: calc(100% / 1.5);
+}
